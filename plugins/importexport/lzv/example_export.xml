@@ -1,0 +1,116 @@
+<publication_process
+	xmlns="..."
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<article_source>
+		<dc:title xml:lang="en-US">Animacy, Agency and Animatedness: The Human-Animal Transformation in Sorry to Bother You </dc:title>
+		<dc:creator>Menzel, Maria</dc:creator>
+		<dc:subject xml:lang="en-US">animatedness</dc:subject>
+		<dc:subject xml:lang="en-US">animacy</dc:subject>
+		<dc:subject xml:lang="en-US">plasticity</dc:subject>
+		<dc:subject xml:lang="en-US">human-animal transformation</dc:subject>
+		<dc:subject xml:lang="en-US">labor </dc:subject>
+		<dc:description xml:lang="en-US">This paper investigates the racialized affect of ‘animatedness’ (Ngai) as presented in the film Sorry to Bother You (2018). In this dark comedy, workers’ subjectivities are constituted by their labor: Their subjectivity is presented as plastic, by formal techniques such as the use of Claymation or animatronics, but especially by the corporate plan to transform workers into human-horse hybrids dubbed Equisapiens, to improve workplace productivity. This paper outlines the connections between this visual plasticization and the continued dehumanization of Black people, to justify the exploitation of their labor. However, this paper argues that rather than using the Equisapiens as figures symbolizing the loss of the workers’ agency, Sorry to Bother You presents both the workers and Equisapiens as excessively animated, ultimately allowing them to form a coalition based on this shared affect. </dc:description>
+		<dc:publisher xml:lang="en-US">Current Objectives of Postgraduate American Studies</dc:publisher>
+		<dc:publisher xml:lang="de-DE">Current Objectives of Postgraduate American Studies</dc:publisher>
+		<dc:date>2024-08-09</dc:date>
+		<dc:type>info:eu-repo/semantics/article</dc:type>
+		<dc:type>info:eu-repo/semantics/publishedVersion</dc:type>
+		<dc:type xml:lang="en-US">peer-reviewed article</dc:type>
+		<dc:format>application/pdf</dc:format>
+		<dc:identifier>https://copas.uni-regensburg.de/index.php/copas/article/view/389</dc:identifier>
+		<dc:identifier>10.5283/copas.389</dc:identifier>
+		<dc:source xml:lang="en-US">Current Objectives of Postgraduate American Studies; Vol. 25 No. 1 (2024); 18-30</dc:source>
+		<dc:source xml:lang="de-DE">Current Objectives of Postgraduate American Studies; Bd. 25 Nr. 1 (2024); 18-30</dc:source>
+		<dc:source>1861-6127</dc:source>
+		<dc:language>eng</dc:language>
+		<dc:relation>https://copas.uni-regensburg.de/index.php/copas/article/view/389/504</dc:relation>
+		<dc:rights xml:lang="en-US">Copyright (c) 2024 Maria Menzel</dc:rights>
+		<dc:rights xml:lang="en-US">https://creativecommons.org/licenses/by/4.0</dc:rights>
+	</article_source>
+	<manuscript>
+		<dc:creator>Menzel, Maria</dc:creator>
+		<dc:date>2024-02-08</dc:date>
+		<dc:type xml:lang="en-US">Article Text</dc:type>
+		<dc:format>application/word</dc:format>
+		<dc:relation>Animatedness Copas.docx</dc:relation>
+	</manuscript>
+	<manuscript>
+		<dc:creator>Wagner, Florian</dc:creator>
+		<dc:date>2024-04-24</dc:date>
+		<dc:type xml:lang="en-US">Article Text</dc:type>
+		<dc:format>application/word</dc:format>
+		<dc:relation>Animatedness+Copas_FW_FH.docx</dc:relation>
+	</manuscript>
+	<manuscript>
+		<dc:creator>Wagner, Florian</dc:creator>
+		<dc:date>2024-04-24</dc:date>
+		<dc:type xml:lang="en-US">Other</dc:type>
+		<dc:format>application/word</dc:format>
+		<dc:relation>Feedback_Letter_Menzel.docx</dc:relation>
+	</manuscript>
+	<peer_review>
+		<reviewed_manuscript>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-04-24</dc:date>
+			<dc:type xml:lang="en-US">Article Text</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>Animatedness+Copas_FW_FH.docx</dc:relation>
+		</reviewed_manuscript>
+		<reviewed_manuscript>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-04-24</dc:date>
+			<dc:type xml:lang="en-US">Other</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>Feedback_Letter_Menzel.docx</dc:relation>
+		</reviewed_manuscript>
+		<decision>
+			<dc:type xml:lang="en-US">Editorial Decision</dc:type>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-??-??</dc:date>
+			Decline
+		</decision>
+		<revised_manuscript>
+			<dc:creator>Menzel, Maria</dc:creator>
+			<dc:date>2024-05-29</dc:date>
+			<dc:type xml:lang="en-US">Article Text</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>Final Animacy Edits.docx</dc:relation>
+		</revised_manuscript>
+	</peer_review>
+	<peer_review>
+		<reviewed_manuscript>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-06-25</dc:date>
+			<dc:type xml:lang="en-US">Article Text</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>Final Animacy Edits.docx</dc:relation>
+		</reviewed_manuscript>
+		<reviewed_manuscript>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-06-25</dc:date>
+			<dc:type xml:lang="en-US">Article Text</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>Final+Animacy+Edits_FW.docx</dc:relation>
+		</reviewed_manuscript>
+		<decision>
+			<dc:type xml:lang="en-US">Editorial Decision</dc:type>
+			<dc:creator>Wagner, Florian</dc:creator>
+			<dc:date>2024-??-??</dc:date>
+			Accepted
+		</decision>
+		<revised_manuscript>
+			<dc:creator>Menzel, Maria</dc:creator>
+			<dc:date>2024-07-12</dc:date>
+			<dc:type xml:lang="en-US">Article Text</dc:type>
+			<dc:format>application/word</dc:format>
+			<dc:relation>B-Final+Animacy+Edits_MM.docx</dc:relation>
+		</revised_manuscript>
+	</peer_review>
+	<publication_proof>
+		<dc:creator>Wagner, Florian</dc:creator>
+		<dc:date>2024-08-09</dc:date>
+		<dc:type xml:lang="en-US">Article Text</dc:type>
+		<dc:format>application/word</dc:format>
+		<dc:relation>03 Menzel_Maria_Animacy, Agency.pdf</dc:relation>
+	</publication_proof>
+</publication_process>

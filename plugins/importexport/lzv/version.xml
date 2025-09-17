@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/importexport/lzv/version.xml
+  *
+  *
+  * Plugin version information.
+  -->
+<version>
+	<application>lzv</application>
+	<type>plugins.importexport</type>
+	<release>1.0.0.1</release>
+	<date>2025-05-01</date>
+</version>

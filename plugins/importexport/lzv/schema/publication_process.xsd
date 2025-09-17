@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="..."
+            targetNamespace="..."
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            elementFormDefault="qualified">
+
+
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            Publication Process Schema
+            by Karl-Arnold Bodarwe (karl-arnold.bodarwe@ur.de), Gernot Deinzer (gernot.deinzer@ur.de)
+
+            This schema describes the publication process of scientific journal articles in a way
+            that is usable for digital preservation.
+
+            The schema was built to facilitate export of publication processes from OJS 
+            (Open Journal Systems https://pkp.sfu.ca/software/ojs/) to Rosetta 
+            (https://exlibrisgroup.com/products/rosetta-digital-asset-management-and-preservation/),
+            but strives to be a general schema for this usecase.
+        </xs:documentation>
+    </xs:annotation>
+
+    <xs:import  namespace="http://purl.org/dc/elements/1.1/"
+                schemaLocation="http://dublincore.org/schemas/xmls/simpledc20021212.xsd"/>
+
+    
+    <xs:element name="publication_process" type="PublicationProcessType"/>
+ 
+    <xs:complexType name="PublicationProcessType">
+        <xsd:annotation>
+                <xsd:documentation xml:lang="en">PublicationProcessType:
+                    Wrapper for the Publication Process. it consists of:
+                    * 1 article_source node, containing the metadata of the published article this publication_process is related to.
+                    * 0...n manuscript nodes, containig the initial manuscript of the article that is sent in for review
+                    * 0...n peer_review nodes, containing peer-reviews of the 
+                </xsd:documentation>
+        </xsd:annotation>
+        <xs:sequence>
+            <xs:element name="article_source" type="MetaDataType"/>
+            <xs:element name="manuscript" type="MetaDataType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="peer_review" type="PeerReviewType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="publication_proof" type="MetaDataType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="MetaDataType">
+        <xsd:annotation>
+                <xsd:documentation xml:lang="en">MetaDataType:
+                    This Element implements DC Elements 1.1. We recommend using at least the creator, date, format, type, relation Elements. 
+                    The relation element can be used to contain a link to an attached document.
+                </xsd:documentation>
+        </xsd:annotation>
+        <xs:group ref="dc:elementsGroup"/>
+    </xs:complexType>
+
+    <xs:complexType name="PeerReviewType">
+        <xsd:annotation>
+                <xsd:documentation xml:lang="en">PeerReviewType:
+                    This Element contains a Peer Review. It consists of:
+                    * 0...n reviewed_manuscript nodes, containing the manuscript that was entered into the review.
+                    * 0...n decision nodes, containing the decision made by the reviewer.
+                    * 0...n revised_manuscript nodes, containing the manuscripts revised by the reviewer.
+                    * 0...n comment nodes, containing any communication between reviewer and reviewee, or editorial communication regarding the review.
+                </xsd:documentation>
+        </xsd:annotation>
+        <xs:sequence>
+            <xs:element name="reviewed_manuscript" type="MetaDataType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="decision" type="DecisionType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="revised_manuscript" type="MetaDataType" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element name="comment" type="CommentType" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="DecisionType" mixed="true">
+        <xsd:annotation>
+                <xsd:documentation xml:lang="en">DecisionType:
+                    This Element contains an editorial decision. Since this is a mixed element, the metadata can be attached as sub nodes, while the decision itself can be written into the element as text. 
+                    Usage of a Controlled Vocabulary for Decisions is highly recommended.
+                </xsd:documentation>
+        </xsd:annotation>
+        <xs:group ref="dc:elementsGroup"/>
+    </xs:complexType>
+
+    <xs:complexType name="CommentType" mixed="true">
+        <xsd:annotation>
+                <xsd:documentation xml:lang="en">CommentType:
+                    This element contains communication relevant to the editorial process. e.g. emails, chats, or similar text. 
+                    Since this is a mixed element, the metadata can be attached as sub nodes, while the content itself can be written directly into the element.
+                    For formatted text, usage of a CDATA block is highly recommended.
+                </xsd:documentation>
+        </xsd:annotation>
+        <xs:group ref="dc:elementsGroup"/>
+    </xs:complexType>
+
+</xs:schema> 

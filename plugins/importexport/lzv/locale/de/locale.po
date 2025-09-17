@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T06:56:45-07:00\n"
+"PO-Revision-Date: 2019-09-30T06:56:45-07:00\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "plugins.importexport.lzv.displayName"
+msgstr "LZV-XML-Export-Plugin"
+
+msgid "plugins.importexport.lzv.description"
+msgstr ""
+"Beitragsmetadaten im LZV-XML-Format für die Indexierung in Rosetta "
+"exportieren."
+
+msgid "plugins.importexport.lzv.export"
+msgstr "Daten exportieren"
+
+msgid "plugins.importexport.lzv.export.issues"
+msgstr "Ausgaben exportieren"
+
+msgid "plugins.importexport.lzv.settings"
+msgstr "Einstellungen"
+
+msgid "plugins.importexport.lzv.export.selectIssue"
+msgstr "Ausgabe für Export auswählen."
+
+msgid "plugins.importexport.lzv.export.articles"
+msgstr "Beiträge exportieren"
+
+msgid "plugins.importexport.lzv.exportSubmissions"
+msgstr "Beiträge exportieren"
+
+msgid "plugins.importexport.lzv.export.selectArticle"
+msgstr "Beiträge für Export auswählen."
+
+msgid "plugins.importexport.lzv.export.articleExported"
+msgstr "Artikel Nr. {$submissionId} wurde exportiert."
+
+msgid "plugins.importexport.lzv.export.countExported"
+msgstr "{$countExported} Artikel wurden erfolgreich exportiert."
+
+msgid "plugins.importexport.lzv.export.countNotExported"
+msgstr "{$countExported} wurden nicht exportiert."
+
+msgid "plugins.importexport.lzv.export.articleNotExported"
+msgstr "Artikel Nr. {$submissionId} existiert bereits. Kein Export durchgeführt."
+
+msgid "plugins.importexport.lzv.cliUsage"
+msgstr ""
+"Gebrauch: \n"
+"{$scriptName} {$pluginName} [Zeitschriftpfad] single "
+"[ArtikelId1] [ArtkelId2] ...\n"
+"{$scriptName} {$pluginName} [Zeitschriftpfad] all\n"
+"{$scriptName} {$pluginName} [Zeitschriftpfad] overwriteall\n"
+
+msgid "plugins.importexport.lzv.cliError"
+msgstr "FEHLER:"
+
+msgid "plugins.importexport.lzv.export.error.issueNotFound"
+msgstr "Keine Ausgabe mit der eingegebenen Signatur \"{$issueId}\"."
+
+msgid "plugins.importexport.lzv.export.error.articleNotFound"
+msgstr "Kein Beitrag mit der eingegebenen Signatur \"{$articleId}\"."
+
+msgid "plugins.importexport.lzv.export.error.articleProblem"
+msgstr "Beim Export von Artikel Nr. {$articleId} gab es einen Fehler."
+
+msgid "plugins.importexport.lzv.test"
+msgstr "Test"
+
+msgid "plugins.importexport.lzv.noDecision"
+msgstr "Keine Entscheidung vorhanden"

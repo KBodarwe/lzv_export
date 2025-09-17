@@ -1,0 +1,616 @@
+<mets:mets xmlns:mets="http://www.exlibrisgroup.com/xsd/dps/rosettaMets">
+  <mets:dmdSec ID="ie-dmd">
+    <mets:mdWrap MDTYPE="DC">
+      <mets:xmlData>
+        <dc:record xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <dc:title><![CDATA[Lexikon Band #245 - Mit den mathematischen Nachweisen ]]></dc:title>
+            <dc:title><![CDATA[µ * ∞ ODER R  x=(-b±√(b^2-4ac))/2a]]></dc:title>
+            <dc:creator>https://ror.org/0234wmv40</dc:creator>
+            <dc:creator>https://orcid.org/0000-0001-2345-6789</dc:creator>
+            <dc:subject>551.6</dc:subject>
+            <dc:subject>551.6</dc:subject>
+            <dc:description><![CDATA[Dieser Datensatz behandelt beispielhaft folgende mathematische Problemstellungen:
+
+        f(x)=a_0+∑_(n=1)^∞▒(a_n  cos⁡〖nπx/L〗+b_n  sin⁡〖nπx/L〗 )  
+
+        (1+x)^n=1+nx/1!+(n(n-1) x^2)/2!+⋯
+
+        (■(U(t)@V(t)@W(t) ))=(■(1&0&0@0&cos⁡Rt&-sin⁡Rt@0&sin⁡Rt&cos⁡Rt ))(■(U(0)@V(0)@W(0) ))
+
+        Γ(z)=∫_0^∞▒〖t^(z-1) e^(-t) dt〗=e^(-γz)/z ∏_(k=1)^∞▒〖(1+z/k)^(-1) e^(z\/k) 〗,γ≈0.577216]]>
+            </dc:description>
+            <dc:date>2024-11-12</dc:date>
+                    <dc:publisher>TestForschungsdatenzentrum für Forschungsdaten</dc:publisher>
+            <dc:date>2024-11-13</dc:date>
+                <dc:contributor>https://orcid.org/</dc:contributor>
+            <dc:type>physicalObject</dc:type>
+            <dc:identifier><![CDATA[Intern]]></dc:identifier>
+            <dc:source>media</dc:source>
+            <dc:language>de</dc:language>
+            <dc:coverage>
+                    °N; °E;
+                    °N; °E;
+                    °N; °E;
+            </dc:coverage>
+            <dc:coverage>2024-11-12</dc:coverage>
+        </dc:record>      
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec ID="ie-amd">
+    <mets:techMD ID="ie-amd-tech">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+            <section id="generalIECharacteristics">
+              <record>
+                <key id="submissionReason">LZV Bayern</key>
+                <key id="status">ACTIVE</key>
+                <key id="IEEntityType">Dataset</key>
+              </record>
+            </section>
+            <section id="objectIdentifier">
+              <record>
+                <key id="objectIdentifierType">fdorganizer</key>
+                <key id="objectIdentifierValue">4ab274e9f0afbf8341f609ff7e001792</key>
+              </record>
+            </section>
+          </dnx>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:rightsMD ID="ie-amd-rights">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:sourceMD ID="ie-amd-source">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:sourceMD>
+    <mets:digiprovMD ID="ie-amd-digiprov">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:amdSec ID="rep1-amd">
+    <mets:techMD ID="rep1-amd-tech">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+            <section id="generalRepCharacteristics">
+              <record>
+                <key id="preservationType">PRESERVATION_MASTER</key>
+                <key id="usageType">VIEW</key>
+                <key id="DigitalOriginal">true</key>
+                <key id="RevisionNumber">1</key>
+              </record>
+            </section>
+          </dnx>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:rightsMD ID="rep1-amd-rights">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:sourceMD ID="rep1-amd-source">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:sourceMD>
+    <mets:digiprovMD ID="rep1-amd-digiprov">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+        <mets:xmlData>
+          <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e0063b2-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e0063b2-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">metadaten.txt</key>
+                  <key id="fileOriginalPath">Test Textcodierung/metadaten.txt</key>
+                  <key id="fileSizeBytes">1686</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">f1691b996ab67b7acf19e1244ed471d3</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e0063b2-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e0063b2-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e0063b2-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e0019fb-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e0019fb-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">CodingSheet_introspection.docx</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_csv/CodingSheet_introspection.docx</key>
+                  <key id="fileSizeBytes">19330</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">62a0d2a7af631db00e072404cdd345ec</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e0019fb-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e0019fb-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e0019fb-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e002045-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e002045-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Introspection_Exp2_Raw_Data.csv</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_csv/Introspection_Exp2_Raw_Data.csv</key>
+                  <key id="fileSizeBytes">66364231</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">b9f7afe2ee361b0f921191a030086e0f</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e002045-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e002045-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e002045-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e0020aa-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e0020aa-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Introspection_Exp3_Raw_Data.csv</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_csv/Introspection_Exp3_Raw_Data.csv</key>
+                  <key id="fileSizeBytes">46381647</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">81255df7d1cffc56ad65d190594427a1</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e0020aa-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e0020aa-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e0020aa-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e002ac3-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e002ac3-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Introspection_Exp1_Raw_Data.csv</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_csv/Introspection_Exp1_Raw_Data.csv</key>
+                  <key id="fileSizeBytes">35856466</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">e44fafaafea5bff0998570a6317300be</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e002ac3-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e002ac3-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e002ac3-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e0035b8-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e0035b8-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">CodingSheetYCAGWYW.pdf</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_txt/CodingSheetYCAGWYW.pdf</key>
+                  <key id="fileSizeBytes">122849</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">3280b084a28745f2177c45c0279ecf79</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e0035b8-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e0035b8-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e0035b8-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e00451e-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e00451e-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Experiment2Rawdata.txt</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_txt/Experiment2Rawdata.txt</key>
+                  <key id="fileSizeBytes">1191634</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">a7fda1151e8be332ec1d5b9b6a2ca930</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e00451e-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e00451e-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e00451e-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e00492f-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e00492f-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Experiment3Rawdata.txt</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_txt/Experiment3Rawdata.txt</key>
+                  <key id="fileSizeBytes">5433501</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">294d7d2180f054ef6b9b3e4297414193</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e00492f-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e00492f-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e00492f-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+    <mets:amdSec ID="fl4ab274e9f0afbf8341f609ff7e005287-amd">
+      <mets:techMD ID="fl4ab274e9f0afbf8341f609ff7e005287-amd-tech">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx">
+              <section id="generalFileCharacteristics">
+                <record>
+                  <key id="label"></key>
+                  <key id="note"></key>
+                  <key id="fileOriginalName">Experiment1Rawdata.txt</key>
+                  <key id="fileOriginalPath">Test Textcodierung/Rohdaten_txt/Experiment1Rawdata.txt</key>
+                  <key id="fileSizeBytes">1428990</key>
+                  <key id="fileCreationDate">2024-11-08</key>
+                  <key id="fileModificationDate">2024-11-08</key>
+                </record>
+              </section>
+              <section id="fileFixity">
+                <record>
+                  <key id="fixityType">MD5</key>
+                  <key id="fixityValue">a5de5bff5c9d226d1f5f252ca400edef</key>
+                </record>
+              </section>
+            </dnx>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:techMD>
+      <mets:rightsMD ID="fl4ab274e9f0afbf8341f609ff7e005287-amd-rights">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:sourceMD ID="fl4ab274e9f0afbf8341f609ff7e005287-amd-source">
+        <mets:mdWrap MDTYPE="DC">
+          <mets:xmlData>
+              <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:sourceMD>
+      <mets:digiprovMD ID="fl4ab274e9f0afbf8341f609ff7e005287-amd-digiprov">
+        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="dnx">
+          <mets:xmlData>
+            <dnx xmlns="http://www.exlibrisgroup.com/dps/dnx"/>
+          </mets:xmlData>
+        </mets:mdWrap>
+      </mets:digiprovMD>
+    </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp ID="rep1">
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e0063b2">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/metadaten.txt"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e0019fb">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_csv/CodingSheet_introspection.docx"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e002045">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_csv/Introspection_Exp2_Raw_Data.csv"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e0020aa">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_csv/Introspection_Exp3_Raw_Data.csv"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e002ac3">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_csv/Introspection_Exp1_Raw_Data.csv"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e0035b8">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_txt/CodingSheetYCAGWYW.pdf"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e00451e">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_txt/Experiment2Rawdata.txt"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e00492f">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_txt/Experiment3Rawdata.txt"/>
+        </mets:file>
+        <mets:file ID="fl4ab274e9f0afbf8341f609ff7e005287">            <mets:FLocat xmlns:xlin="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlin:href="Test Textcodierung/Rohdaten_txt/Experiment1Rawdata.txt"/>
+        </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap ID="structmap-1" TYPE="LOGICAL">
+    <mets:div LABEL="Preservation Master">
+      <mets:div LABEL="Table of Contents">
+        <mets:div LABEL="Test Textcodierung">
+            <mets:div LABEL="metadaten.txt" TYPE="FILE">
+              <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e0063b2"/>
+            </mets:div>
+            <mets:div LABEL="Rohdaten_csv">
+                <mets:div LABEL="CodingSheet_introspection.docx" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e0019fb"/>
+                </mets:div>
+                <mets:div LABEL="Introspection_Exp2_Raw_Data.csv" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e002045"/>
+                </mets:div>
+                <mets:div LABEL="Introspection_Exp3_Raw_Data.csv" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e0020aa"/>
+                </mets:div>
+                <mets:div LABEL="Introspection_Exp1_Raw_Data.csv" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e002ac3"/>
+                </mets:div>
+            </mets:div>
+            <mets:div LABEL="Rohdaten_txt">
+                <mets:div LABEL="CodingSheetYCAGWYW.pdf" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e0035b8"/>
+                </mets:div>
+                <mets:div LABEL="Experiment2Rawdata.txt" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e00451e"/>
+                </mets:div>
+                <mets:div LABEL="Experiment3Rawdata.txt" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e00492f"/>
+                </mets:div>
+                <mets:div LABEL="Experiment1Rawdata.txt" TYPE="FILE">
+                  <mets:fptr FILEID="fl4ab274e9f0afbf8341f609ff7e005287"/>
+                </mets:div>
+            </mets:div>
+        </mets:div>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>
