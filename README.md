@@ -1,4 +1,4 @@
-# lzv_plugin: Long time archiving plugin for OJS 3.4.x
+# lzv_export: Long time archiving plugin for OJS 3.4.x
 
 ## Summary
 This is a plugin for OJS 3.4.x that exports articles and their publication process via the command line for archiving in the Rosetta long time archiving format. 
